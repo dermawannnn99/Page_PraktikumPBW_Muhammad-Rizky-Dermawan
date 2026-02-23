@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data">
+    <h1>FORMULIR PENDAFTARAN SEDERHANA</h1>
+
+    <div>
+        <label for="">Masukan Nama</label>
+        <br>
+        <input type="text" name="username" placeholder="Masukan nama lengkap" required>
+    </div>
+
+    <div>
+        <br>
+        <label for="">Masukan Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Masukan nama lengkap" required>
+    </div>
+
+    <br>
+    <!-- <div>
+        <label for="">Deskripsikan diri anda</label>
+        <br>
+        <textarea name="deskripsi" id="" rows="10" cols="30" placeholder="Saya adalah"></textarea>
+    </div> -->
+    <!-- <br> -->
+    <div>
+        <label for="">Pilih jenis kelamin anda</label>
+        <br>
+        <input type="radio" name="gender" value="laki-laki" required>Laki-Laki
+        <input type="radio" name="gender" value="Perempuan" required>Perempuan
+    </div>
+
+    <div>
+        <br>
+        <label for="">Pilih Hobi Anda</label>
+        <br>
+        <input type="checkbox" name="Pilihan 1" id="musik" value="1"> Musik
+        <input type="checkbox" name="Pilihan 2" id="olahraga" value="2"> Olahraga
+        <input type="checkbox" name="Pilihan 3" id="membaca" value="3"> Membaca
+    </div>
+
+    <div>
+        <br>
+        <label for="">Pilih Kota</label>
+        <br>
+        <select name="kota" id="" required>
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+        </select>
+    </div>
+
+    <br>
+    <label for="">Upload Foto</label>
+    <input type="file" name="foto" accept="image/*" required>
+    <br>
+    <br>
+    <!-- <button type="submit">KIRIM</button> -->
+    <button type="submit" onclick="alert('Data sudah tercatat. Terima Kasih.')">KIRIM</button>
+
+    </form>
+
+</body>
+</html>
