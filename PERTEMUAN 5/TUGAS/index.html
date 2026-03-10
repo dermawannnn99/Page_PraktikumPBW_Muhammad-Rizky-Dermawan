@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>PROGRAM CEK NILAI MAHASISWA</title>
+</head>
+<body>
+    <h1>
+        PROGRAM SEDERHANA CEK NILAI MAHASISWA
+    </h1>
+
+    <div class="container">
+        <section class="contect">
+            <p>
+                Program ini digunakan untuk mengecek rata-rata nilai mahasiswa dan menentukan huruf mutu berdasarkan nilai yang dimasukkan.
+            </p>
+
+            <label for=""><b>Masukan NIM Anda</b></label><br>
+            <input type="number" id="nim" required>
+
+            <br><br>
+            <label for=""><b>Masukan Nama Lengkap</b></label><br>
+            <input type="text" id="nama" required>
+
+            <br><br>
+            <label for=""><b>Pemrograman Berorientasi Objek</b></label>
+            <input type="number" id="n1" placeholder="1-100" required>
+
+            <br><br>
+            <label for=""><b>Kecerdasan Buatan</b></label>
+            <input type="number" id="n2" placeholder="1-100" required>
+
+            <br><br>
+            <label for=""><b>Satatistika & Probabilitas</b></label>
+            <input type="number" id="n3" placeholder="1-100" required>
+
+            <br><br>
+            <label for=""><b>Embedded Intelegent System</b></label>
+            <input type="number" id="n4" placeholder="1-100" required>
+
+            <br><br>
+            <label for=""><b>Rekayasa Perangkat Lunak</b></label>
+            <input type="number" id="n5" placeholder="1-100" required>
+
+            <br><br>
+            <button onclick="cekNilai()"><b>Cek Nilai</b></button>
+
+            <p id="hasil"></p>
+            <button onclick="resetForm()"><b>Reset Nilai</b></button>
+
+        </section>
+    </div>
+    
+</body>
+</html>
