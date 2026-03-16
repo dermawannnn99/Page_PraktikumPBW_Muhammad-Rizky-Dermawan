@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 14px;
+}
+
+/* Product List */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.product-item:hover {
+    background-color: #f9f9f9;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.item-price {
+    color: #555;
+}
+
+/* Qty */
+.qty-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 13px;
+}
+
+.qty-row input {
+    width: 70px;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+/* Buttons */
+.btn-beli {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-beli:hover {
+    background-color: #555;
+}
+
+.btn-reset {
+    margin-top: 14px;
+    padding: 8px 14px;
+    background: none;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-reset:hover {
+    background-color: #f0f0f0;
+}
+
+/* Struk */
+.struk-detail p {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.total-bayar {
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.menunggu {
+    font-size: 13px;
+    color: #999;
+}
