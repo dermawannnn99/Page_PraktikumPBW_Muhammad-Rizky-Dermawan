@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.input-group {
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 98%;
+    padding: 10px;
+}
+
+.item-selection {
+    font-weight: bold;
+}
+
+.item-selection input {
+    padding: 10px;
+    margin-bottom: 10px;
+    display:inline-block;
+} 
+
+.input-group select {
+    width: 98%;
+    padding: 10px;
+}
+
+.btn-submit {
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.btn-submit:hover {
+    background-color: rgb(130, 197, 255);
+}
+
+.struk {
+    background-color: red;
+}
+
+
+
+

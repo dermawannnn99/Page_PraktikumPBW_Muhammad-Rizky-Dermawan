@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Web Development Project Showcase — Muhammad Rizky Dermawan, Universitas Singaperbangsa Karawang." />
+  <title>MAN4RAY — Web Dev Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital@1&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav-wrap" id="top">
+    <nav class="navbar" id="main-nav">
+      <span class="nav-brand">M4NRAY</span>
+      <ul class="nav-links">
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#profile" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <div class="hero-badge" data-reveal data-delay="0">
+        <span class="badge-pulse"></span>Academic Portfolio &mdash; 2026
+      </div>
+
+      <h1 class="hero-title" data-reveal data-delay="100">
+        Web <em class="hero-em-curly">Development Project</em><br>
+        <span class="hero-strong">Showcase for Academic Portfolio</span>
+      </h1>
+
+      <p class="hero-sub" data-reveal data-delay="200">
+        A curated collection of practicum and assignment projects from the Web-Based Programming course: HTML, CSS,
+        JavaScript &amp; PHP.
+      </p>
+
+      <div class="tech-row" data-reveal data-delay="300">
+        <div class="tech-chip" id="chip-html">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16">
+            <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z" stroke="currentColor" stroke-width="1.6"
+              stroke-linejoin="round" />
+            <path d="M8.5 8h7l-.5 5L12 14.5 9 13l-.3-2H11l.1 1 .9.3.9-.3.15-1.8H8.5" stroke="currentColor"
+              stroke-width="1.3" stroke-linejoin="round" />
+          </svg>
+          HTML5
+        </div>
+        <div class="tech-chip" id="chip-css">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16">
+            <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z" stroke="currentColor" stroke-width="1.6"
+              stroke-linejoin="round" />
+            <path d="M15.5 8H8l.3 3h7l-.4 3.5L12 15.5l-3-.8-.2-2h2.2l.1 1 .9.2.9-.2.2-2H7.8" stroke="currentColor"
+              stroke-width="1.3" stroke-linejoin="round" />
+          </svg>
+          CSS3
+        </div>
+        <div class="tech-chip" id="chip-js">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16">
+            <rect x="2" y="2" width="20" height="20" rx="3" stroke="currentColor" stroke-width="1.6" />
+            <path d="M7.5 16.5c0 .9.7 1.5 1.7 1.5 1.1 0 1.8-.7 1.8-1.8V11M13.5 11h3" stroke="currentColor"
+              stroke-width="1.6" stroke-linecap="round" />
+          </svg>
+          JavaScript
+        </div>
+        <div class="tech-chip" id="chip-php">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16">
+            <ellipse cx="12" cy="12" rx="10" ry="4.5" stroke="currentColor" stroke-width="1.6" />
+            <path d="M7.5 10.5l.8 3h.9l.5-1.5h.8l.5 1.5h.9l.8-3h-.9l-.4 1.8h-.5L10.4 10h-.8l-.4 1.8H8.7l-.3-1.8h-.9z"
+              fill="currentColor" />
+          </svg>
+          PHP
+        </div>
+      </div>
+
+      <div class="hero-actions" data-reveal data-delay="400">
+        <a href="#projects" class="btn-cta" id="cta-explore">
+          Explore Projects
+          <svg viewBox="0 0 16 16" fill="none" width="14" height="14">
+            <path d="M8 3v10M4.5 9.5L8 13l3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a href="#profile" class="btn-outline-hero" id="cta-about">About Me</a>
+      </div>
+
+      <span class="scroll-text" data-reveal data-delay="500" aria-hidden="true">SCROLL</span>
+    </div>
+
+    <!-- SVG Wave — absolute full-viewport-width, never clips -->
+    <div class="hero-wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 88" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,44 C180,88 360,8 540,36 C720,64 900,4 1080,32 C1260,60 1380,28 1440,40 L1440,88 L0,88 Z"
+          fill="#ffffff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- PROFILE -->
+  <section class="sec" id="profile">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>ABOUT ME</p>
+      <h2 class="sec-title" data-reveal>Student Profile</h2>
+
+      <div class="profile-grid" data-reveal>
+        <div class="profile-avatar" id="profile-avatar" aria-label="Profile photo">
+          <img src="fotoder.png" alt="Muhammad Rizky Dermawan" style="width:100%;height:100%;object-fit:cover;border-radius:inherit;display:block;" />
+        </div>
+        <div class="profile-info">
+          <h3 class="profile-name">Muhammad Rizky Dermawan</h3>
+          <dl class="profile-dl">
+            <div class="dl-row">
+              <dt>NPM</dt>
+              <dd>2410631170038</dd>
+            </div>
+            <div class="dl-row">
+              <dt>Course</dt>
+              <dd>Pemrograman Berbasis Web</dd>
+            </div>
+            <div class="dl-row">
+              <dt>Lecturer</dt>
+              <dd>Kamal Prihandani, M.Kom.</dd>
+            </div>
+            <div class="dl-row">
+              <dt>Program</dt>
+              <dd>Informatics Study Program</dd>
+            </div>
+            <div class="dl-row">
+              <dt>Faculty</dt>
+              <dd>Faculty of Computer Science</dd>
+            </div>
+            <div class="dl-row">
+              <dt>University</dt>
+              <dd>Universitas Singaperbangsa Karawang</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <!-- Module PDF Card -->
+      <div class="module-card" id="module-card" data-reveal>
+        <div class="module-card-left">
+          <p class="module-eyebrow">Module Reference</p>
+          <p class="module-title">Pemrograman Web dengan PHP dan MariaDB</p>
+          <p class="module-meta">Kamal Prihandani, M.Kom. dkk &mdash; Goresan Pena, 2025</p>
+        </div>
+        <a href="Pemrograman Web final (1).pdf" target="_blank" class="btn-pdf" id="btn-open-pdf">
+          <svg viewBox="0 0 20 20" fill="none" width="16" height="16">
+            <path d="M4 2h8l4 4v12a1 1 0 01-1 1H5a1 1 0 01-1-1V3a1 1 0 011-1z" stroke="currentColor"
+              stroke-width="1.4" />
+            <path d="M12 2v4h4M7 11h6M7 14h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+          </svg>
+          Open PDF Module
+        </a>
+      </div>
+
+      <div class="about-block about-block--gradient" data-reveal>
+        <p class="eyebrow">WHAT I LEARNED</p>
+        <p class="about-text">Come to think of it, when I first joined this Web Programming class, I thought building a
+          website was just about added text, mixing colors and placing images. But it turns out, the journey goes much
+          deeper than that. It all started in the classroom, where the instructor laid a solid theoretical foundation,
+          from how the
+          internet works to the logic behind well-structured code. That’s when I realized that behind a simple web
+          interface lies an architecture that must be meticulously constructed. What’s exciting is that the theory
+          doesn’t just stay on paper. During lab sessions, the lab assistants were incredibly helpful in diving straight
+          into the world of coding. Under their guidance, I practiced what the professor taught. Every weekly exercise
+          and assignment truly challenged my mind. From initially only being able to create static text with HTML and
+          simple CSS styling, I gradually began to build “dynamic” websites using JavaScript logic. The highlight came
+          when studying PHP and databases; I gained an understanding of how to manage data on the server and build
+          functional systems. This experience opened my eyes to the fact that web development isn’t just about typing
+          code, but about the art of systematically solving problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="sec sec--alt" id="projects">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>COURSE WORK</p>
+      <h2 class="sec-title" data-reveal>Projects by Session</h2>
+      <p class="sec-sub" data-reveal>Browse practicum exercises and assignments organized by meeting.</p>
+
+      <div class="proj-list" id="proj-list">
+
+        <article class="proj-row" id="p2" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">02</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 2</h3>
+              <p class="proj-d">HTML Fundamentals — semantic elements, text formatting, application letter.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 2/SuratLamaran_Pertemuan2.html" target="_blank" class="pill pill-primary"
+              id="p2-open">Open File</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p3" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">03</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 3</h3>
+              <p class="proj-d">HTML Tables, Lists, and Forms — structuring tabular data and user input.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 3/index.html" target="_blank" class="pill pill-primary" id="p3-open">Open File</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p4" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">04</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 4</h3>
+              <p class="proj-d">Introduction to CSS — selectors, box model, and page styling.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 4/bikinweb_pertemuan4.html" target="_blank" class="pill pill-primary" id="p4-open">Open
+              File</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p5" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">05</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 5</h3>
+              <p class="proj-d">JavaScript Basics — variables, functions, DOM, and event handling.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 5/PRAKTIKUM/index.html" target="_blank" class="pill pill-outline"
+              id="p5-prak">Practicum</a>
+            <a href="PERTEMUAN 5/TUGAS/index.html" target="_blank" class="pill pill-primary" id="p5-task">Assignment</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p6" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">06</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 6</h3>
+              <p class="proj-d">PHP Introduction — server-side scripting, variables, and output.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 6/index.php" target="_blank" class="pill pill-primary" id="p6-open">Open File</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p7" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">07</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 7</h3>
+              <p class="proj-d">PHP Control Structures — conditionals, loops, switch, and ternary operators.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 7/Latihan/form.php" target="_blank" class="pill pill-outline" id="p7-prak">Practicum</a>
+            <a href="PERTEMUAN 7/Tugas/latihan_nilai.php" target="_blank" class="pill pill-primary"
+              id="p7-task">Assignment</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p8" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">08</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 8</h3>
+              <p class="proj-d">PHP Arrays and Loops — foreach, array functions, and structured data.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 8/Latihan/foreach.php" target="_blank" class="pill pill-outline"
+              id="p8-prak">Practicum</a>
+            <a href="PERTEMUAN 8/Tugas/index.php" target="_blank" class="pill pill-primary" id="p8-task">Assignment</a>
+          </div>
+        </article>
+
+        <article class="proj-row" id="p9" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">09</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 9</h3>
+              <p class="proj-d">PHP Database — MySQL connection and CRUD operations.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="PERTEMUAN 9/LAB BELAJAR/login.php" target="_blank" class="pill pill-outline" id="p9-prak">Practicum</a>
+            <a href="PERTEMUAN 9/Latihan/index.php" target="_blank" class="pill pill-primary" id="p9-task">Assignment</a>
+          </div>
+        </article>
+
+        <article class="proj-row proj-row--dim" id="p10" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">10</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 10</h3>
+              <p class="proj-d">Session in progress — files will be available after completion.</p>
+            </div>
+          </div>
+          <div class="proj-r"><span class="pill pill-disabled">Coming soon</span></div>
+        </article>
+
+        <article class="proj-row proj-row--dim" id="p11" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">11</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 11</h3>
+              <p class="proj-d">Session in progress — files will be available after completion.</p>
+            </div>
+          </div>
+          <div class="proj-r"><span class="pill pill-disabled">Coming soon</span></div>
+        </article>
+
+        <article class="proj-row proj-row--dim" id="p12" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n">12</span>
+            <div>
+              <h3 class="proj-t">Pertemuan 12</h3>
+              <p class="proj-d">Session in progress — files will be available after completion.</p>
+            </div>
+          </div>
+          <div class="proj-r"><span class="pill pill-disabled">Coming soon</span></div>
+        </article>
+
+        <article class="proj-row proj-row--exam" id="uts" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n proj-n--exam">UTS</span>
+            <div>
+              <h3 class="proj-t">Mid-Term Examination</h3>
+              <p class="proj-d">Mid-term project covering HTML, CSS, JavaScript, and basic PHP.</p>
+            </div>
+          </div>
+          <div class="proj-r">
+            <a href="UTS PBW/index.php" target="_blank" class="pill pill-primary" id="uts-open">Open UTS</a>
+          </div>
+        </article>
+
+        <article class="proj-row proj-row--exam proj-row--dim" id="uas" data-reveal>
+          <div class="proj-l">
+            <span class="proj-n proj-n--exam">UAS</span>
+            <div>
+              <h3 class="proj-t">Final Examination</h3>
+              <p class="proj-d">Final project integrating all course topics into a complete web application.</p>
+            </div>
+          </div>
+          <div class="proj-r"><span class="pill pill-disabled">Coming soon</span></div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="sec" id="contact">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>GET IN TOUCH</p>
+      <h2 class="sec-title" data-reveal>Contact</h2>
+
+      <div class="contact-grid" data-reveal>
+        <div class="contact-hero-card" id="contact-card">
+          <p class="chc-label">Let's Connect</p>
+          <p class="chc-sub">Open for collaboration, questions, or just a quick chat.</p>
+          <a href="https://wa.me/+62895617046679" target="_blank" rel="noopener" class="wa-btn" id="contact-wa">
+            <svg viewBox="0 0 20 20" fill="none" width="17" height="17">
+              <path d="M10 1.5C5.3 1.5 1.5 5.3 1.5 10c0 1.5.4 2.9 1.1 4.1L1.5 18.5l4.5-1.1A8.5 8.5 0 1010 1.5z"
+                stroke="currentColor" stroke-width="1.4" />
+              <path
+                d="M7 7.8c.2-.45.6-.8 1.1-.8.3 0 .6.15.75.45l.6 1.2c.15.3.08.68-.15.9l-.2.2c.37.68.9 1.2 1.57 1.58l.2-.2c.23-.23.6-.3.9-.15l1.2.6c.3.15.45.45.45.75 0 .45-.3.9-.75 1.05-1.5.45-3.6-.9-4.65-1.95S6.55 9.3 7 7.8z"
+                stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
+            </svg>
+            WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-links-col">
+          <a href="#" class="clink-card" id="clink-github">
+            <div class="clink-icon">
+              <svg viewBox="0 0 20 20" fill="none" width="18" height="18">
+                <path
+                  d="M10 1.5C5.3 1.5 1.5 5.3 1.5 10c0 3.56 2.3 6.58 5.49 7.65.4.07.55-.17.55-.39 0-.19-.01-.69-.01-1.36-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.88-1.17-.88-1.17-.73-.5.05-.49.05-.49.8.06 1.23.83 1.23.83.71 1.22 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.7 7.7 0 0110 5.47c.68 0 1.37.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.14.46.55.38C16.2 16.58 18.5 13.56 18.5 10c0-4.7-3.81-8.5-8.5-8.5z"
+                  stroke="currentColor" stroke-width="1.2" />
+              </svg>
+            </div>
+            <div class="clink-info"><span class="clink-t">GitHub</span><span class="clink-s">@dermawannnn99</span></div>
+            <svg class="clink-arr" viewBox="0 0 12 12" fill="none" width="11" height="11">
+              <path d="M2.5 9.5l7-7M4 2.5h5.5V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/dermanray06/" target="_blank" rel="noopener" class="clink-card" id="clink-ig">
+            <div class="clink-icon">
+              <svg viewBox="0 0 20 20" fill="none" width="18" height="18">
+                <rect x="2" y="2" width="16" height="16" rx="4.5" stroke="currentColor" stroke-width="1.4" />
+                <circle cx="10" cy="10" r="3.2" stroke="currentColor" stroke-width="1.4" />
+                <circle cx="14.5" cy="5.5" r=".9" fill="currentColor" />
+              </svg>
+            </div>
+            <div class="clink-info"><span class="clink-t">Instagram</span><span class="clink-s">@dermanray06</span>
+            </div>
+            <svg class="clink-arr" viewBox="0 0 12 12" fill="none" width="11" height="11">
+              <path d="M2.5 9.5l7-7M4 2.5h5.5V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-rizky-dermawan/" target="_blank" rel="noopener" class="clink-card" id="clink-li">
+            <div class="clink-icon">
+              <svg viewBox="0 0 20 20" fill="none" width="18" height="18">
+                <rect x="2" y="2" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.4" />
+                <path d="M6 9v5M6 6.5v.5M9.5 14v-2.8a2.2 2.2 0 014.4 0V14M9.5 9v5" stroke="currentColor"
+                  stroke-width="1.4" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="clink-info"><span class="clink-t">LinkedIn</span><span class="clink-s">muhammad-rizky-dermawan</span>
+            </div>
+            <svg class="clink-arr" viewBox="0 0 12 12" fill="none" width="11" height="11">
+              <path d="M2.5 9.5l7-7M4 2.5h5.5V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="wrap footer-row">
+      <span class="footer-name">Muhammad Rizky Dermawan</span>
+      <span class="footer-dot" aria-hidden="true"></span>
+      <span class="footer-note">2025 &mdash; Pemrograman Berbasis Web, Universitas Singaperbangsa Karawang</span>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+
+</html>
